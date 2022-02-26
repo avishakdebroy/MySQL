@@ -26,7 +26,7 @@ HAVING
 ORDER BY
   avg_products_ordered DESC
 
-/* number of products in each hits_product_v2ProductCategory */
+/* Number of products in each hits_product_v2ProductCategory */
 
 SELECT
   COUNT(DISTINCT hits_product_v2ProductName) AS number_of_products,
